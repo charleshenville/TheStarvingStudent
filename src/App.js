@@ -18,7 +18,6 @@ import {
   Text,
 } from '@chakra-ui/react'
 import { FaLocationArrow, FaTimes } from 'react-icons/fa'
-
 import {
   useJsApiLoader,
   GoogleMap,
@@ -28,7 +27,7 @@ import {
 } from '@react-google-maps/api'
 import { useRef, useState } from 'react'
 const fakeResturants = [{name:"timms"},{name:"mcdonalds"}]
-const center = { lat: 48.8584, lng: 2.2945 }
+const center = { lat: 43.659632, lng: -79.396747 }
 
 function App() {
   const { isLoaded } = useJsApiLoader({
