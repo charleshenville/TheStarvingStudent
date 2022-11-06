@@ -28,6 +28,7 @@ def createUIretreivables():
         # print(uiretrsplititerated)
         
         uiretr['Restaurant Name'][i] = uiretrwithdash
+        #print(uiretrsplititerated)
         uiretr['Address'][i] = uiretrsplititerated[1]
 
     uiretr.set_index('Restaurant Name', inplace = True)
