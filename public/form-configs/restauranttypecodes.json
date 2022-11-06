@@ -1,6 +1,6 @@
 {
-    "TIM": {
-        "Restautant Name": "Tim Hortons",
+    "Tim Hortons": {
+        "Restaurant Code": "TIM",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -22,8 +22,8 @@
             "SLD"
         ]
     },
-    "STB": {
-        "Restautant Name": "Starbucks",
+    "Starbucks": {
+        "Restaurant Code": "STB",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -45,8 +45,8 @@
             "SLD"
         ]
     },
-    "FTS": {
-        "Restautant Name": "Food Truck - Shawarma",
+    "Food Truck - Shawarma": {
+        "Restaurant Code": "FTS",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -58,8 +58,8 @@
             "FRS"
         ]
     },
-    "NCD": {
-        "Restautant Name": "NewCollege Dining Hall (NC)",
+    "NewCollege Dining Hall (NC)": {
+        "Restaurant Code": "NCD",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -81,8 +81,8 @@
             "FRS"
         ]
     },
-    "MCM": {
-        "Restautant Name": "Mike's Cafe (St Michael's)",
+    "Mike's Cafe (St Michael's)": {
+        "Restaurant Code": "MCM",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -104,8 +104,8 @@
             "FRS"
         ]
     },
-    "FTP": {
-        "Restautant Name": "Food Truck - Pink",
+    "Food Truck - Pink": {
+        "Restaurant Code": "FTP",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -121,8 +121,8 @@
             "BRG"
         ]
     },
-    "SCP": {
-        "Restautant Name": "Second Cup",
+    "Second Cup": {
+        "Restaurant Code": "SCP",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -144,8 +144,8 @@
             "SLD"
         ]
     },
-    "KFT": {
-        "Restautant Name": "Kung Fu Tea",
+    "Kung Fu Tea": {
+        "Restaurant Code": "KFT",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -157,8 +157,8 @@
             "BBT"
         ]
     },
-    "KHD": {
-        "Restautant Name": "Myungrang (Korean) Hotdog",
+    "Myungrang (Korean) Hotdog": {
+        "Restaurant Code": "KHD",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -168,8 +168,8 @@
             "HDG"
         ]
     },
-    "CRM": {
-        "Restautant Name": "Canada Room (St Michael's)",
+    "Canada Room (St Michael's)": {
+        "Restaurant Code": "CRM",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -191,8 +191,8 @@
             "FRS"
         ]
     },
-    "SOP": {
-        "Restautant Name": "Stone Oven Pizzeria (MSB)",
+    "Stone Oven Pizzeria (MSB)": {
+        "Restaurant Code": "SOP",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -204,8 +204,8 @@
             "PZA"
         ]
     },
-    "ZTR": {
-        "Restautant Name": "Za'atar (MSB)",
+    "Za'atar (MSB)": {
+        "Restaurant Code": "ZTR",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -220,8 +220,8 @@
             "SWH"
         ]
     },
-    "SSH": {
-        "Restautant Name": "So Sushi (MSB)",
+    "So Sushi (MSB)": {
+        "Restaurant Code": "SSH",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -235,8 +235,8 @@
             "SFD"
         ]
     },
-    "PPD": {
-        "Restautant Name": "Pasta Pappardelle (MSB)",
+    "Pasta Pappardelle (MSB)": {
+        "Restaurant Code": "PPD",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -249,8 +249,8 @@
             "PST"
         ]
     },
-    "TCB": {
-        "Restautant Name": "The Cube (BA)",
+    "The Cube (BA)": {
+        "Restaurant Code": "TCB",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -267,8 +267,8 @@
             "WRP"
         ]
     },
-    "GBH": {
-        "Restautant Name": "Gourmet Burger House",
+    "Gourmet Burger House": {
+        "Restaurant Code": "GBH",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -282,8 +282,8 @@
             "FRS"
         ]
     },
-    "GNG": {
-        "Restautant Name": "Grab 'N' Go",
+    "Grab 'N' Go": {
+        "Restaurant Code": "GNG",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -304,8 +304,8 @@
             "SNK"
         ]
     },
-    "HFD": {
-        "Restautant Name": "Howard Ferguson Dining Hall",
+    "Howard Ferguson Dining Hall": {
+        "Restaurant Code": "HFD",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -325,8 +325,8 @@
             "FRS"
         ]
     },
-    "CHN": {
-        "Restautant Name": "Chesnut Dining Hall",
+    "Chesnut Dining Hall": {
+        "Restaurant Code": "CHN",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -345,8 +345,8 @@
             "FRS"
         ]
     },
-    "COD": {
-        "Restautant Name": "CampusOne Dining Hall",
+    "CampusOne Dining Hall": {
+        "Restaurant Code": "COD",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -367,8 +367,8 @@
             "FRS"
         ]
     },
-    "RMY": {
-        "Restautant Name": "Ramen Ya",
+    "Ramen Ya": {
+        "Restaurant Code": "RMY",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -382,8 +382,8 @@
             "BWL"
         ]
     },
-    "GTK": {
-        "Restautant Name": "Grill N Thrill Kabob",
+    "Grill N Thrill Kabob": {
+        "Restaurant Code": "GTK",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -396,8 +396,8 @@
             "FRS"
         ]
     },
-    "CHT": {
-        "Restautant Name": "Chattime Bubble Tea",
+    "Chattime Bubble Tea": {
+        "Restaurant Code": "CHT",
         "Price": 2,
         "Dietary Restriction/Accomodation": [
             "Halal",
@@ -409,8 +409,8 @@
             "OHB"
         ]
     },
-    "SGN": {
-        "Restautant Name": "Signatures",
+    "Signatures": {
+        "Restaurant Code": "SGN",
         "Price": 3,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -431,8 +431,8 @@
             "PST"
         ]
     },
-    "TOT": {
-        "Restautant Name": "Tortillas",
+    "Tortillas": {
+        "Restaurant Code": "TOT",
         "Price": 1,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",
@@ -447,8 +447,8 @@
             "OCB"
         ]
     },
-    "TBT": {
-        "Restautant Name": "The Buttery",
+    "The Buttery": {
+        "Restaurant Code": "TBT",
         "Price": 3,
         "Dietary Restriction/Accomodation": [
             "Gluten Free",

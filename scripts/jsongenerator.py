@@ -5,7 +5,7 @@ import json as j
 
 def createItemTypes():
 
-    itemtypecd = pd.read_excel(modelpath,index_col='Item Code', sheet_name = 'ItemCode List')
+    itemtypecd = pd.read_excel(modelpath,index_col='Item Type', sheet_name = 'ItemCode List')
     
     jsonstring = itemtypecd.to_json(orient = 'index')
     variableparse = j.loads(jsonstring)
@@ -42,7 +42,7 @@ def createUIretreivables():
 
 def createRestautantTypes():
 
-    restautanttypecd = pd.read_excel(modelpath,index_col='Restaurant Code', sheet_name = 'RestaurantCode List')
+    restautanttypecd = pd.read_excel(modelpath,index_col='Restaurant Name', sheet_name = 'RestaurantCode List')
     
     restautanttypecd.reset_index(inplace = True)
 
@@ -68,7 +68,7 @@ def createRestautantTypes():
 
     
 
-    restautanttypecd.set_index('Restaurant Code', inplace = True)
+    restautanttypecd.set_index('Restaurant Name', inplace = True)
     jsonstring = restautanttypecd.to_json(orient = 'index')
     variableparse = j.loads(jsonstring)
     finalstring = j.dumps(variableparse, indent = 4)

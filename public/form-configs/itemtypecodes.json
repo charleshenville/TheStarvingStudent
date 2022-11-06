@@ -1,82 +1,82 @@
 {
-    "COF": {
-        "Item Type": "Coffee",
+    "Coffee": {
+        "Item Code": "COF",
         "Keywords": "iced coffee, dark roast, black, espresso, latte, americano, frappucino, cold brew"
     },
-    "WRP": {
-        "Item Type": "Wraps",
+    "Wraps": {
+        "Item Code": "WRP",
         "Keywords": "wrap, burrito, shawarma"
     },
-    "SWH": {
-        "Item Type": "Sandwiches",
+    "Sandwiches": {
+        "Item Code": "SWH",
         "Keywords": "sandwhich, burger, sub"
     },
-    "OHB": {
-        "Item Type": "Other Hot Beverages",
+    "Other Hot Beverages": {
+        "Item Code": "OHB",
         "Keywords": "tea, hot choclate"
     },
-    "BWL": {
-        "Item Type": "Bowls",
+    "Bowls": {
+        "Item Code": "BWL",
         "Keywords": "bowl, salad, poke bowl"
     },
-    "SFD": {
-        "Item Type": "Seafood",
+    "Seafood": {
+        "Item Code": "SFD",
         "Keywords": "fish, sushi, prawns, salmon, crab"
     },
-    "RCE": {
-        "Item Type": "Rice",
+    "Rice": {
+        "Item Code": "RCE",
         "Keywords": "rice"
     },
-    "PZA": {
-        "Item Type": "Pizza",
+    "Pizza": {
+        "Item Code": "PZA",
         "Keywords": "pizza, pepperoni, italian"
     },
-    "BKG": {
-        "Item Type": "Baked goods",
+    "Baked goods": {
+        "Item Code": "BKG",
         "Keywords": "donuts, muffins, bagels"
     },
-    "DST": {
-        "Item Type": "Dessert",
+    "Dessert": {
+        "Item Code": "DST",
         "Keywords": "ice cream, milkshakes, cakes, cheesecakes"
     },
-    "OCB": {
-        "Item Type": "Other Cold Beverages",
+    "Other Cold Beverages": {
+        "Item Code": "OCB",
         "Keywords": "bubble tea, milkshakes, iced coffee, iced capp"
     },
-    "HDG": {
-        "Item Type": "Hot dog",
+    "Hot dog": {
+        "Item Code": "HDG",
         "Keywords": "hot dog"
     },
-    "BBT": {
-        "Item Type": "Bubble Tea",
+    "Bubble Tea": {
+        "Item Code": "BBT",
         "Keywords": "bubble tea, milk tea, tea, tapioca, qq, taro"
     },
-    "FRS": {
-        "Item Type": "Fries",
+    "Fries": {
+        "Item Code": "FRS",
         "Keywords": "fries"
     },
-    "SLD": {
-        "Item Type": "Salads",
+    "Salads": {
+        "Item Code": "SLD",
         "Keywords": "salad"
     },
-    "BRG": {
-        "Item Type": "Burgers",
+    "Burgers": {
+        "Item Code": "BRG",
         "Keywords": "burger"
     },
-    "FRT": {
-        "Item Type": "Fruit",
+    "Fruit": {
+        "Item Code": "FRT",
         "Keywords": "fruits, apple, orange"
     },
-    "SNK": {
-        "Item Type": "Snacks",
+    "Snacks": {
+        "Item Code": "SNK",
         "Keywords": "snacks, granola bar"
     },
-    "NDL": {
-        "Item Type": "Noodles",
+    "Noodles": {
+        "Item Code": "NDL",
         "Keywords": "noodles"
     },
-    "PST": {
-        "Item Type": "Pasta",
+    "Pasta": {
+        "Item Code": "PST",
         "Keywords": "pasta, italian, spaghetti, macaroni"
     }
 }
