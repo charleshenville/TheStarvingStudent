@@ -72,11 +72,11 @@ def createRestautantTypes():
     variableparse = j.loads(jsonstring)
     finalstring = j.dumps(variableparse, indent = 4)
 
-    itemtypecdjson = open(jsonpath+'restautanttypecodes.json', 'w')
+    itemtypecdjson = open(jsonpath+'restauranttypecodes.json', 'w')
     itemtypecdjson.write(finalstring)
     itemtypecdjson.close()
 
-jsonpath = './form-configs/'
+jsonpath = './public/form-configs/'
 modelpath = './models/StarvingStudent_DataModel.xlsx'
 
 createItemTypes()
