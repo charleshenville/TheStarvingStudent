@@ -92,10 +92,6 @@ function App() {
     destiantionRef.current.value = ''
   }
 
-  console.log(UIRetreivable)
-  // var i = 0;
-  // var ECard;
-
   return (
 
     <ChakraProvider>
@@ -128,7 +124,7 @@ function App() {
       h='100vh'
       w='100vw'
     >
-      <Box position='absolute' left={0} top={800}h='100%' w='100%'>
+      <Box position='absolute' left={0} top={200}h='100%' w='100%'>
         {/* Google Map Box */}
         <GoogleMap
           center={center}
@@ -150,21 +146,21 @@ function App() {
         </GoogleMap>
       </Box>
       <Box
-        p={4}
+        p={6}
         borderRadius='lg'
-        m={4}
+        m={5}
         bgColor='white'
         shadow='base'
         minW='container.md'
         zIndex='1'
       >
         <h4>
-          Starving Student
+          The Starving Student
         </h4>
-        <HStack spacing={2} justifyContent='space-between'>
-          <Box flexGrow={1}>
+        <HStack spacing={4} justifyContent='space-between'>
+          <Box flexGrow={2}>
             <Autocomplete>
-              <Input type='text' placeholder='Enter food item' ref={originRef} />
+              <Input type='text' placeholder='Enter Desired Address' ref={originRef} />
             </Autocomplete>
           </Box>
 
@@ -180,8 +176,6 @@ function App() {
           </ButtonGroup>
         </HStack>
         <HStack spacing={4} mt={4} justifyContent='space-between'>
-          <Text>Distance: {distance} </Text>
-          <Text>Duration: {duration} </Text>
           <IconButton
             aria-label='center back'
             icon={<FaLocationArrow />}
