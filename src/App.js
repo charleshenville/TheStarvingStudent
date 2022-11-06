@@ -1,4 +1,5 @@
 import RestaurantCards from "./components/card";
+import TextField from "@mui/material/TextField";
 
 import  ItemTypeCodes  from './src-form-configs/itemtypecodes.json';
 import  RestaurantTypeCodes from './src-form-configs/restauranttypecodes';
@@ -47,7 +48,7 @@ function App() {
     googleMapsApiKey: "AIzaSyACTEWEy471HWELK-uowv-kirwsuDU_KiE",
     libraries: ['places'],
   })
-
+  const [inputText, setInputText] = useState("");
   const [map, setMap] = useState(/** @type google.maps.Map */ (null))
   const [directionsResponse, setDirectionsResponse] = useState(null)
   const [distance, setDistance] = useState('')
@@ -68,14 +69,9 @@ function App() {
   async function calculateRoute() {
     
     //setRestaurants(fakeResturants)
-    if (originRef.current.value === '' || destiantionRef.current.value === '') {
-      return
-    }
     // eslint-disable-next-line no-undef
     const directionsService = new google.maps.DirectionsService()
     const results = await directionsService.route({
-      origin: originRef.current.value,
-      destination: destiantionRef.current.value,
       // eslint-disable-next-line no-undef
       travelMode: google.maps.TravelMode.DRIVING,
     })
@@ -84,41 +80,47 @@ function App() {
     setDuration(results.routes[0].legs[0].duration.text)
   }
 
-  function clearRoute() {
-    setDirectionsResponse(null)
-    setDistance('')
-    setDuration('')
-    originRef.current.value = ''
-    destiantionRef.current.value = ''
-  }
+  let inputHandler = (e) => {
+    //convert input text to lower case
+    var lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+  };
+  //search function
+  function List(props) {
+    const filteredData = Object.entries(UIRetreivable).map((e) => (e[0])).filter((el) => {
+        if (props.input === '') {
+            return el;
+        } else {
+            return el.text.toLowerCase().includes(props.input)
+        }
+    })
+    return (
+      <Container maxW="80rem" centerContent>
+      <SimpleGrid columns={[1, 2, 1, 2]}>
+      {filteredData.map((e) => {
+     // props object
 
-  console.log(UIRetreivable)
-  // var i = 0;
+     const props = {
+       StoreImage: e[1].StoreImage,
+       RestaurantName: e[0],
+       WebsiteLink: e[1].WebsiteLink,
+       Rating: e[1].Rating
+      }
+  return(
+  <RestaurantCards props={props} />);
+  })};
+      </SimpleGrid>
+    </Container>
+    )
+}
+
+
+Object.entries(UIRetreivable).map((e) => (e[0]));  // var i = 0;
   // var ECard;
 
   return (
 
     <ChakraProvider>
-        <Container maxW="80rem" centerContent>
-          <SimpleGrid columns={[1, 2, 1, 2]}>
-            
-          {Object.entries(UIRetreivable).map((e) => {
-          
-         // props object
-  
-         const props = {
-           Address: e[1].Address,
-           Name: e[1].Name,
-           StoreImage: e[1].StoreImage,
-           RestaurantName: e[0],
-           WebsiteLink: e[1].WebsiteLink,
-           Rating: e[1].Rating
-          }
-      return(
-      <RestaurantCards props={props} />);
-      })};
-          </SimpleGrid>
-        </Container>
       
 
     <Flex
@@ -162,21 +164,24 @@ function App() {
           Starving Student
         </h4>
         <HStack spacing={2} justifyContent='space-between'>
-          <Box flexGrow={1}>
-            <Autocomplete>
-              <Input type='text' placeholder='Enter food item' ref={originRef} />
-            </Autocomplete>
-          </Box>
+        <h1>React Search</h1>
+      <div className="search">
+        <TextField
+          id="outlined-basic"
+          onChange={inputHandler}
+          variant="outlined"
+          fullWidth
+          label="Search"
+        />
+
+      <List input={inputText} />
+    </div>
 
           <ButtonGroup>
             <Button colorScheme='pink' type='submit' onClick={calculateRoute}>
               Search
             </Button>
-            <IconButton
-              aria-label='center back'
-              icon={<FaTimes />}
-              onClick={clearRoute}
-            />
+
           </ButtonGroup>
         </HStack>
         <HStack spacing={4} mt={4} justifyContent='space-between'>
