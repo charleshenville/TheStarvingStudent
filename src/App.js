@@ -18,6 +18,7 @@ import {
   Text,
 } from '@chakra-ui/react'
 import { FaLocationArrow, FaTimes } from 'react-icons/fa'
+
 import {
   useJsApiLoader,
   GoogleMap,
@@ -26,12 +27,13 @@ import {
   DirectionsRenderer,
 } from '@react-google-maps/api'
 import { useRef, useState } from 'react'
-const fakeResturants = [{name:"timms"},{name:"mcdonalds"}]
+//const fakeResturants = [{name:"timms"},{name:"mcdonalds"}]
 const center = { lat: 43.659632, lng: -79.396747 }
 
 function App() {
+  
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: "AIzaSyACTEWEy471HWELK-uowv-kirwsuDU_KiE",
     libraries: ['places'],
   })
 
@@ -39,7 +41,7 @@ function App() {
   const [directionsResponse, setDirectionsResponse] = useState(null)
   const [distance, setDistance] = useState('')
   const [duration, setDuration] = useState('')
-  const [restaurants, setRestaurants] = useState(null);
+  //const [restaurants, setRestaurants] = useState(null);
 
   /** @type React.MutableRefObject<HTMLInputElement> */
   const originRef = useRef()
@@ -52,7 +54,7 @@ function App() {
 
   async function calculateRoute() {
     
-    setRestaurants(fakeResturants)
+    //setRestaurants(fakeResturants)
     if (originRef.current.value === '' || destiantionRef.current.value === '') {
       return
     }
@@ -150,7 +152,7 @@ function App() {
         </HStack>
       </Box>
       <div>
-        {restaurants && restaurants.map(({name},i)=>(<Card name={name} key={i}/>))}
+        {/* {restaurants && restaurants.map(({name},i)=>(<Card name={name} key={i}/>))} */}
       </div>
     </Flex>
 
