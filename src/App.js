@@ -36,8 +36,10 @@ import {
   DirectionsRenderer,
 } from '@react-google-maps/api'
 import { useRef, useState } from 'react'
+import centers from './location.json'
 //const fakeResturants = [{name:"timms"},{name:"mcdonalds"}]
 const center = { lat: 43.659632, lng: -79.396747 }
+
 
 function App() {
   
@@ -50,6 +52,7 @@ function App() {
   const [directionsResponse, setDirectionsResponse] = useState(null)
   const [distance, setDistance] = useState('')
   const [duration, setDuration] = useState('')
+  const [locationCoords, setLocationCoords] = useState(centers)
   //const [restaurants, setRestaurants] = useState(null);
 
   /** @type React.MutableRefObject<HTMLInputElement> */
@@ -60,6 +63,7 @@ function App() {
   if (!isLoaded) {
     return <SkeletonText />
   }
+
 
   async function calculateRoute() {
     
@@ -138,7 +142,8 @@ function App() {
           }}
           onLoad={map => setMap(map)}
         >
-          <Marker position={center} />
+        {locationCoords.map((location_c) => {
+        return <Marker position={location_c} />})}
           {directionsResponse && (
             <DirectionsRenderer directions={directionsResponse} />
           )}
