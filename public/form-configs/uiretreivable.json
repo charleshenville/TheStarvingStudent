@@ -161,21 +161,21 @@
         "Store Image": "https://www.k-cap.com/wp-content/uploads/2018/04/7920.jpg",
         "Address": "253 College St, Toronto, ON M5T 1R5"
     },
-    "Ramen Ya - Sidney Smith Hall 100 St. George St lower level, Toronto, ON M5S 3G3": {
+    "Ramen Ya - Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3": {
         "T-Bucks": "Yes",
         "Rating (/5)": 2.7,
         "Map Location": "https://goo.gl/maps/TnGzuxaJy4Md6YPq7",
         "Website Link": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/013",
         "ResturauntCode": "RMY",
         "Store Image": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/54435413_10156426042877635_7686372128320389120_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_ohc=nbJVZCO8J-QAX8k8_li&_nc_ht=scontent-yyz1-1.xx&oh=00_AfCJH5NflOub2wg-Zbozjd-KgT9n7oqTldP3aCmH3-1aDQ&oe=638E422D",
-        "Address": "Sidney Smith Hall 100 St. George St lower level, Toronto, ON M5S 3G3"
+        "Address": "Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3"
     },
     "Grill N Thrill Kabob - 80 St George St, Toronto, ON M5S 3H4": {
         "T-Bucks": "No",
         "Rating (/5)": 4.0,
         "Map Location": "https://goo.gl/maps/QB3xCVGquutGhVTp7",
         "Website Link": "https://www.grillnthrillkabob.com/",
-        "ResturauntCode": null,
+        "ResturauntCode": "GTK",
         "Store Image": "https://lh5.googleusercontent.com/p/AF1QipPEGwAig0zmUe_D5ewCZypZztM6GkiO-niBfkbu=w408-h272-k-no",
         "Address": "80 St George St, Toronto, ON M5S 3H4"
     },
@@ -184,8 +184,80 @@
         "Rating (/5)": 4.1,
         "Map Location": "https://goo.gl/maps/vRAxwgftfUz8nTB78",
         "Website Link": "https://chatime.com/order/collegewest/?utm_source=google&utm_medium=gmb&utm_campaign=coo2&utm_term=menu",
-        "ResturauntCode": null,
+        "ResturauntCode": "CHT",
         "Store Image": "https://s3-media0.fl.yelpcdn.com/bphoto/hu8JeD_L7EiyGQJavEOAPw/o.jpg",
         "Address": "199 College St, Toronto, ON M5T 1P9"
+    },
+    "Signatures Restaurant - 220 Bloor St W, Toronto, ON M5S 1T8": {
+        "T-Bucks": "No",
+        "Rating (/5)": 4.2,
+        "Map Location": "https://goo.gl/maps/Ro9nqMtDouS8d26s5",
+        "Website Link": "https://www.opentable.ca/signatures-restaurant?corrid=2f6a1ee6-9bb8-4170-882f-7dff5edcafbd&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=2&sd=2022-09-03T19%3A00%3A00",
+        "ResturauntCode": "SGN",
+        "Store Image": "https://lh5.googleusercontent.com/p/AF1QipP6LodRULeGXjdzdBg7G1CNFUAb2NgDDEvwrOJ1=w408-h306-k-no",
+        "Address": "220 Bloor St W, Toronto, ON M5S 1T8"
+    },
+    "Kung Fu Tea - 287 College St, Toronto, ON M5T 1S2": {
+        "T-Bucks": "No",
+        "Rating (/5)": 4.3,
+        "Map Location": "https://goo.gl/maps/MsezmyTdYTYkBomi9",
+        "Website Link": "https://www.kungfuteatoronto.com/",
+        "ResturauntCode": "KFT",
+        "Store Image": "https://lh5.googleusercontent.com/p/AF1QipPhKKLJ-9rWmK4CPnVFqfC2oQOocSa-RCk38lzY=w408-h272-k-no",
+        "Address": "287 College St, Toronto, ON M5T 1S2"
+    },
+    "Myungrang Hotdog - 199 College St, Toronto, ON M5T 1P9": {
+        "T-Bucks": "No",
+        "Rating (/5)": 4.4,
+        "Map Location": "https://goo.gl/maps/9LoWr2VgE3b3RZo27",
+        "Website Link": "http://www.myungranghotdog.ca/",
+        "ResturauntCode": "KHD",
+        "Store Image": "https://lh5.googleusercontent.com/p/AF1QipMbop1F3q7RLw_LY9g2i8L13vWmr_ybPu7RHQWl=w408-h305-k-no",
+        "Address": "199 College St, Toronto, ON M5T 1P9"
+    },
+    "Second Cup - 100 St George St, Toronto, ON M5S 2E8": {
+        "T-Bucks": "Yes",
+        "Rating (/5)": 2.4,
+        "Map Location": "https://goo.gl/maps/i1J1PaibAQBM26D18",
+        "Website Link": "https://secondcup.com/en/menu/",
+        "ResturauntCode": "SCP",
+        "Store Image": "https://wdw.utoronto.ca/sites/default/files/styles/scale_width_811px_/public/assets/images/sidney%20smith%20hall%20cropped.jpg?itok=ViabXdoN",
+        "Address": "100 St George St, Toronto, ON M5S 2E8"
+    },
+    "Mike's Cafe - 81A St. Marys St, Brennan Hall, 1st floor Toronto": {
+        "T-Bucks": "Yes",
+        "Rating (/5)": null,
+        "Map Location": "https://goo.gl/maps/3SvXoFca4L4vjBaU8",
+        "Website Link": "https://stmikes.utoronto.ca/news/brennan-hall-puts-community-at-the-heart-of-st-mikes",
+        "ResturauntCode": "MCM",
+        "Store Image": "https://stmikes.utoronto.ca/wp-content/uploads/2020/12/Mikes-Cafe.jpg",
+        "Address": "81A St. Marys St, Brennan Hall, 1st floor Toronto"
+    },
+    "Pink Food Truck - 130 St George Street, Toronto, ON M5S 1A5": {
+        "T-Bucks": "No",
+        "Rating (/5)": null,
+        "Map Location": "https://goo.gl/maps/zgB3LwaakucacaMn8",
+        "Website Link": "https://www.yelp.ca/biz/teappuccino-toronto",
+        "ResturauntCode": "FTP",
+        "Store Image": "http://blogs.studentlife.utoronto.ca/lifeatuoft/files/2016/02/2015-07-06-03.50.12-1.jpg",
+        "Address": "130 St George Street, Toronto, ON M5S 1A5"
+    },
+    "Tortillas - 100 St George St, Toronto, ON M5S 3G3": {
+        "T-Bucks": "Yes",
+        "Rating (/5)": 4.2,
+        "Map Location": "https://goo.gl/maps/XyCNtr2fQaVUF3w58",
+        "Website Link": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/008",
+        "ResturauntCode": "TOT",
+        "Store Image": "https://assets.bonappetit.com/photos/592f0472f54fde6de91b1d3c/1:1/w_3322,h_3322,c_limit/0617-lau-judy-fish-tacos-al-pastor.jpg",
+        "Address": "100 St George St, Toronto, ON M5S 3G3"
+    },
+    "The Buttery - 15 Devonshire Pl, Toronto, ON M5S 2C8": {
+        "T-Bucks": "Yes",
+        "Rating (/5)": 4.0,
+        "Map Location": "https://goo.gl/maps/Aaw3PViobbAWfZuaA",
+        "Website Link": "http://www.trinity.utoronto.ca/visit/food-services/buttery.html#main-content",
+        "ResturauntCode": "TPT",
+        "Store Image": "https://pbs.twimg.com/media/DJcWJEaXUAA-mVv.jpg:large",
+        "Address": "15 Devonshire Pl, Toronto, ON M5S 2C8"
     }
 }
