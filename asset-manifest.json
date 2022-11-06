@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/charleshenville/TheStarvingStudent/static/js/main.00b518e9.js",
-    "index.html": "/charleshenville/TheStarvingStudent/index.html",
-    "main.00b518e9.js.map": "/charleshenville/TheStarvingStudent/static/js/main.00b518e9.js.map"
+    "main.js": "/TheStarvingStudent/static/js/main.b277e594.js",
+    "index.html": "/TheStarvingStudent/index.html",
+    "main.b277e594.js.map": "/TheStarvingStudent/static/js/main.b277e594.js.map"
   },
   "entrypoints": [
-    "static/js/main.00b518e9.js"
+    "static/js/main.b277e594.js"
   ]
 }
