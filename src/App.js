@@ -1,4 +1,8 @@
-import Card from "./components/card";
+import RestaurantCards from "./components/card";
+
+import  ItemTypeCodes  from './src-form-configs/itemtypecodes.json';
+import  RestaurantTypeCodes from './src-form-configs/restauranttypecodes';
+import  UIRetreivable  from './src-form-configs/uiretreivable.json';
 
 import {
   chakra,
@@ -16,6 +20,11 @@ import {
   Input,
   SkeletonText,
   Text,
+  createMultiStyleConfigHelpers,
+  ChakraProvider, 
+  SimpleGrid, 
+  Container
+
 } from '@chakra-ui/react'
 import { FaLocationArrow, FaTimes } from 'react-icons/fa'
 
@@ -79,7 +88,32 @@ function App() {
     destiantionRef.current.value = ''
   }
 
+  console.log(UIRetreivable)
+  // var i = 0;
+  // var ECard;
+
   return (
+
+    <ChakraProvider>
+        <Container maxW="80rem" centerContent>
+          <SimpleGrid columns={[1, 2, 1, 2]}>
+          {Object.entries(UIRetreivable).map((e) => {
+         // props object
+  
+         const props = {
+           StoreImage: e[1].StoreImage,
+           RestaurantName: e[0],
+           WebsiteLink: e[1].WebsiteLink,
+           Rating: e[1].Rating
+          }
+        console.log(props);
+      return(
+      <RestaurantCards props={props} />);
+      })};
+          </SimpleGrid>
+        </Container>
+      
+
     <Flex
       position='relative'
       flexDirection='column'
@@ -155,7 +189,7 @@ function App() {
         {/* {restaurants && restaurants.map(({name},i)=>(<Card name={name} key={i}/>))} */}
       </div>
     </Flex>
-
+    </ChakraProvider>
   )
 }
 

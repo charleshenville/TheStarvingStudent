@@ -1,0 +1,473 @@
+{
+    "Tim Hortons": {
+        "Restaurant Code": "TIM",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Halal",
+            "Hot Meals",
+            "Light Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD"
+        ]
+    },
+    "Starbucks": {
+        "Restaurant Code": "STB",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Halal",
+            "Hot Meals",
+            "Light Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD"
+        ]
+    },
+    "Food Truck - Shawarma": {
+        "Restaurant Code": "FTS",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Hot Meals"
+        ],
+        "ItemTypeCode": [
+            "WRP",
+            "BWL",
+            "FRS"
+        ]
+    },
+    "NewCollege Dining Hall (NC)": {
+        "Restaurant Code": "NCD",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD",
+            "FRS"
+        ]
+    },
+    "Mike's Cafe (St Michael's)": {
+        "Restaurant Code": "MCM",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD",
+            "FRS"
+        ]
+    },
+    "Food Truck - Pink": {
+        "Restaurant Code": "FTP",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Hot Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "RCE",
+            "SFD",
+            "FRS",
+            "BWL",
+            "BRG"
+        ]
+    },
+    "Second Cup": {
+        "Restaurant Code": "SCP",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Halal",
+            "Hot Meals",
+            "Light Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD"
+        ]
+    },
+    "Kung Fu Tea": {
+        "Restaurant Code": "KFT",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Vegetarian"
+        ],
+        "ItemTypeCode": [
+            "OCB",
+            "OHB",
+            "BBT"
+        ]
+    },
+    "Myungrang (Korean) Hotdog": {
+        "Restaurant Code": "KHD",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Hot Meals"
+        ],
+        "ItemTypeCode": [
+            "HDG"
+        ]
+    },
+    "Canada Room (St Michael's)": {
+        "Restaurant Code": "CRM",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD",
+            "FRS"
+        ]
+    },
+    "Stone Oven Pizzeria (MSB)": {
+        "Restaurant Code": "SOP",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Hot Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "PZA"
+        ]
+    },
+    "Za'atar (MSB)": {
+        "Restaurant Code": "ZTR",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "SLD",
+            "WRP",
+            "SWH"
+        ]
+    },
+    "So Sushi (MSB)": {
+        "Restaurant Code": "SSH",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Halal",
+            "Hot Meals",
+            "Light Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "SFD"
+        ]
+    },
+    "Pasta Pappardelle (MSB)": {
+        "Restaurant Code": "PPD",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "PST"
+        ]
+    },
+    "The Cube (BA)": {
+        "Restaurant Code": "TCB",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "SLD",
+            "OHB",
+            "OCB",
+            "COF",
+            "WRP"
+        ]
+    },
+    "Gourmet Burger House": {
+        "Restaurant Code": "GBH",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Gluten Free",
+            "Hot Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "BRG",
+            "FRS"
+        ]
+    },
+    "Grab 'N' Go": {
+        "Restaurant Code": "GNG",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Gluten Free",
+            "Hot Meals",
+            "Vegetarian",
+            "MicrowavesGluten Free",
+            "Halal",
+            "Hot Meals",
+            "Light Meals",
+            "Vegetarian",
+            "Microwaves"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "OHB",
+            "FRT",
+            "SNK"
+        ]
+    },
+    "Howard Ferguson Dining Hall": {
+        "Restaurant Code": "HFD",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "OHB",
+            "OCB",
+            "SLD",
+            "SWH",
+            "PST",
+            "BRG",
+            "DST",
+            "FRS"
+        ]
+    },
+    "Chesnut Dining Hall": {
+        "Restaurant Code": "CHN",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "RCE",
+            "WRP",
+            "DST",
+            "PST",
+            "OHB",
+            "OSB",
+            "FRS"
+        ]
+    },
+    "CampusOne Dining Hall": {
+        "Restaurant Code": "COD",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "OHB",
+            "OCB",
+            "SLD",
+            "SWH",
+            "PST",
+            "BRG",
+            "DST",
+            "FRT",
+            "FRS"
+        ]
+    },
+    "Ramen Ya": {
+        "Restaurant Code": "RMY",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "NDL",
+            "BWL"
+        ]
+    },
+    "Grill N Thrill Kabob": {
+        "Restaurant Code": "GTK",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal"
+        ],
+        "ItemTypeCode": [
+            "WRP",
+            "BWL",
+            "FRS"
+        ]
+    },
+    "Chattime Bubble Tea": {
+        "Restaurant Code": "CHT",
+        "Price": 2,
+        "Dietary Restriction/Accomodation": [
+            "Halal",
+            "Vegetarian"
+        ],
+        "ItemTypeCode": [
+            "BBT",
+            "OCB",
+            "OHB"
+        ]
+    },
+    "Signatures": {
+        "Restaurant Code": "SGN",
+        "Price": 3,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "SFD",
+            "SLD",
+            "SWH",
+            "WRP",
+            "BRG",
+            "DST",
+            "OCB",
+            "OHB",
+            "PST"
+        ]
+    },
+    "Tortillas": {
+        "Restaurant Code": "TOT",
+        "Price": 1,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "WRP",
+            "SLD",
+            "OCB"
+        ]
+    },
+    "The Buttery": {
+        "Restaurant Code": "TBT",
+        "Price": 3,
+        "Dietary Restriction/Accomodation": [
+            "Gluten Free",
+            "Light Meals",
+            "Halal",
+            "Vegetarian",
+            "Vegan"
+        ],
+        "ItemTypeCode": [
+            "COF",
+            "WRP",
+            "SWH",
+            "OHB",
+            "BWL",
+            "BKG",
+            "DST",
+            "OCB",
+            "SLD",
+            "FRS"
+        ]
+    }
+}

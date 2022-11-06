@@ -1,0 +1,82 @@
+{
+    "Coffee": {
+        "Item Code": "COF",
+        "Keywords": "iced coffee, dark roast, black, espresso, latte, americano, frappucino, cold brew"
+    },
+    "Wraps": {
+        "Item Code": "WRP",
+        "Keywords": "wrap, burrito, shawarma"
+    },
+    "Sandwiches": {
+        "Item Code": "SWH",
+        "Keywords": "sandwhich, burger, sub"
+    },
+    "Other Hot Beverages": {
+        "Item Code": "OHB",
+        "Keywords": "tea, hot choclate"
+    },
+    "Bowls": {
+        "Item Code": "BWL",
+        "Keywords": "bowl, salad, poke bowl"
+    },
+    "Seafood": {
+        "Item Code": "SFD",
+        "Keywords": "fish, sushi, prawns, salmon, crab"
+    },
+    "Rice": {
+        "Item Code": "RCE",
+        "Keywords": "rice"
+    },
+    "Pizza": {
+        "Item Code": "PZA",
+        "Keywords": "pizza, pepperoni, italian"
+    },
+    "Baked goods": {
+        "Item Code": "BKG",
+        "Keywords": "donuts, muffins, bagels"
+    },
+    "Dessert": {
+        "Item Code": "DST",
+        "Keywords": "ice cream, milkshakes, cakes, cheesecakes"
+    },
+    "Other Cold Beverages": {
+        "Item Code": "OCB",
+        "Keywords": "bubble tea, milkshakes, iced coffee, iced capp"
+    },
+    "Hot dog": {
+        "Item Code": "HDG",
+        "Keywords": "hot dog"
+    },
+    "Bubble Tea": {
+        "Item Code": "BBT",
+        "Keywords": "bubble tea, milk tea, tea, tapioca, qq, taro"
+    },
+    "Fries": {
+        "Item Code": "FRS",
+        "Keywords": "fries"
+    },
+    "Salads": {
+        "Item Code": "SLD",
+        "Keywords": "salad"
+    },
+    "Burgers": {
+        "Item Code": "BRG",
+        "Keywords": "burger"
+    },
+    "Fruit": {
+        "Item Code": "FRT",
+        "Keywords": "fruits, apple, orange"
+    },
+    "Snacks": {
+        "Item Code": "SNK",
+        "Keywords": "snacks, granola bar"
+    },
+    "Noodles": {
+        "Item Code": "NDL",
+        "Keywords": "noodles"
+    },
+    "Pasta": {
+        "Item Code": "PST",
+        "Keywords": "pasta, italian, spaghetti, macaroni"
+    }
+}
