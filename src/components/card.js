@@ -21,6 +21,7 @@ import {
 import './RestaurantCard.css'
 
 function RestaurantCards(props) {
+    var x = props.props.RestaurantName.split(" - ")[0]
     return (
         <Box
       p={4}
@@ -51,7 +52,7 @@ function RestaurantCards(props) {
           letterSpacing="wide"
           color="teal.600"
         >
-          {props.props.RestaurantName} 
+          {x}
         </Text>
         <Link
           my={1}
