@@ -59,7 +59,7 @@ function RestaurantCards(props) {
           fontSize="md"
           lineHeight="normal"
           fontWeight="semibold"
-          href={props.WebsiteLink}
+          
         >
           {props.props.Rating} 
 
@@ -67,8 +67,10 @@ function RestaurantCards(props) {
         <Text my={2} color="gray.500">
         {props.props.Address} 
         </Text>
-        <Button maxWidth="100px" my={2}>
-          Click me!
+        <Button maxWidth="100px" my={2} href={props.props.WebsiteLink}>
+          <Link href={props.props.WebsiteLink} isExternal>
+            Order Now
+            </Link>
         </Button>
       </Stack>
     </Box>
