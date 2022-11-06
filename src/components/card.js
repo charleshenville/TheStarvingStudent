@@ -29,11 +29,15 @@ function RestaurantCards(props) {
       borderWidth={1}
       margin={2}
     >
-      {/* <AspectRatio ratio={1 / 1}> */}
         <img
+        style={{
+            resizeMode: "contain",
+            height: 200,
+            width: 200
+          }}
         src={props.props.StoreImage}
+
         />
-      {/* </AspectRatio> */}
       <Stack
         align={{ base: "center", md: "stretch" }}
         textAlign={{ base: "center", md: "left" }}
@@ -61,7 +65,7 @@ function RestaurantCards(props) {
 
         </Link>
         <Text my={2} color="gray.500">
-        {props.props.RestaurantName} 
+        {props.props.Address} 
         </Text>
         <Button maxWidth="100px" my={2}>
           Click me!

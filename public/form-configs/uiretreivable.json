@@ -1,263 +1,292 @@
 {
-    "Tim Hortons - 1 King's College Cir, Toronto, ON M5S 1A8": {
+    "Tim Hortons @ 1 King's College Cir, Toronto, ON M5S 1A8": {
         "T-Bucks": "Yes",
         "Rating": 2.9,
         "MapLocation": "https://goo.gl/maps/9vAtozwTJ9drYhUeA",
         "WebsiteLink": "https://locations.timhortons.ca/on/toronto/1-kings-college-circle",
         "ResturauntCode": "TIM",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipN57DDqBwbvpmO3xHbXGo_fZ0-et26nx_e3HysV=w432-h240-k-no",
-        "Address": "1 King's College Cir, Toronto, ON M5S 1A8"
+        "Address": "1 King's College Cir, Toronto, ON M5S 1A8",
+        "Name": "Tim Hortons"
     },
-    "Tim Hortons - 610 University Ave, Toronto, ON M5J 1A7": {
+    "Tim Hortons @ 610 University Ave, Toronto, ON M5J 1A7": {
         "T-Bucks": "No",
         "Rating": 3.9,
         "MapLocation": "https://goo.gl/maps/MBsWQ6T1y5AFDnfi8",
         "WebsiteLink": "https://locations.timhortons.ca/on/toronto/700-university-ave",
         "ResturauntCode": "TIM",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipMPmZsHnzWlBgKDszLhBh6mYr0Oh71hRE6Fk6RW=w408-h306-k-no",
-        "Address": "610 University Ave, Toronto, ON M5J 1A7"
+        "Address": "610 University Ave, Toronto, ON M5J 1A7",
+        "Name": "Tim Hortons"
     },
-    "The Cube - 40 St George St, Toronto, ON M5S 2E4": {
+    "The Cube @ 40 St George St, Toronto, ON M5S 2E4": {
         "T-Bucks": "Yes",
         "Rating": 3.0,
         "MapLocation": "https://goo.gl/maps/nJq6XZ92X3TvU4qS6",
         "WebsiteLink": "http://dev.ueat.utoronto.ca/locations-cube/",
         "ResturauntCode": "TCB",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPGYJLoRyVPV8HOzWAzPfTkZbfMFTXaQKsro0NV=w408-h306-k-no",
-        "Address": "40 St George St, Toronto, ON M5S 2E4"
+        "Address": "40 St George St, Toronto, ON M5S 2E4",
+        "Name": "The Cube"
     },
-    "Stone Oven Pizza - Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
+    "Stone Oven Pizza @ Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/znJHNjVGuAvRBJUC8",
         "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/010",
         "ResturauntCode": "SOP",
         "StoreImage": "https://foodservices.utoronto.ca/wp-content/uploads/StoneOvenPizza-300x213.jpg",
-        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8"
+        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8",
+        "Name": "Stone Oven Pizza"
     },
-    "Gourmet Burger House - Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
+    "Gourmet Burger House @ Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/znJHNjVGuAvRBJUC8",
         "WebsiteLink": "http://dev.ueat.utoronto.ca/location/gourmet-burger-house/",
         "ResturauntCode": "GBH",
         "StoreImage": "http://dev.ueat.utoronto.ca/wp-content/uploads/2015/08/The_Gourmet_Burger_House.jpg",
-        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8"
+        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8",
+        "Name": "Gourmet Burger House"
     },
-    "Grab 'N' Go - Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
+    "Grab 'N' Go @ Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/znJHNjVGuAvRBJUC8",
         "WebsiteLink": "https://www.utoronto.ca/news/hungry-here-s-where-grab-bite-u-t-s-three-campuses",
         "ResturauntCode": "GNG",
         "StoreImage": "https://www.utoronto.ca/sites/default/files/0J5A0385%20copy.jpg",
-        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8"
+        "Address": "Medical Sciences Building, 1 King's College Cir, Toronto, ON M5S 1A8",
+        "Name": "Grab 'N' Go"
     },
-    "Grab 'N' Go - 130 St George St, Toronto, ON M5S 1A5": {
+    "Grab 'N' Go @ 130 St George St, Toronto, ON M5S 1A5": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/3GvgqM393eC8KUiH7",
         "WebsiteLink": "https://www.utoronto.ca/news/hungry-here-s-where-grab-bite-u-t-s-three-campuses",
         "ResturauntCode": "GNG",
         "StoreImage": "https://www.utoronto.ca/sites/default/files/0J5A0385%20copy.jpg",
-        "Address": "130 St George St, Toronto, ON M5S 1A5"
+        "Address": "130 St George St, Toronto, ON M5S 1A5",
+        "Name": "Grab 'N' Go"
     },
-    "Starbucks - 1 King's College Cir, Toronto, ON M5S 1A8": {
+    "Starbucks @ 1 King's College Cir, Toronto, ON M5S 1A8": {
         "T-Bucks": "Yes",
         "Rating": 3.7,
         "MapLocation": "https://goo.gl/maps/7yjhZ8Do6cSciUjT7",
         "WebsiteLink": "https://www.starbucks.ca/store-locator/store/754",
         "ResturauntCode": "STB",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipN0h8BBoAiqq4HSfjMUgtt3gcMOBBQEj8vCsqON=w408-h408-k-no",
-        "Address": "1 King's College Cir, Toronto, ON M5S 1A8"
+        "Address": "1 King's College Cir, Toronto, ON M5S 1A8",
+        "Name": "Starbucks"
     },
-    "Starbucks - 205 College St, Toronto, ON M5T 1P9": {
+    "Starbucks @ 205 College St, Toronto, ON M5T 1P9": {
         "T-Bucks": "No",
         "Rating": 4.1,
         "MapLocation": "https://goo.gl/maps/LVrSJpT2fDg2xaJ98",
         "WebsiteLink": "https://www.starbucks.ca/store-locator/store/1318",
         "ResturauntCode": "STB",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPrm7NZYAnG9Eq9bAS3Jhz5LCC23l_y88_tBH8V=w244-h183-k-no",
-        "Address": "205 College St, Toronto, ON M5T 1P9"
+        "Address": "205 College St, Toronto, ON M5T 1P9",
+        "Name": "Starbucks"
     },
-    "Dining Hall New College - 40 Willcocks St, Toronto, ON M5S 1C6": {
+    "Dining Hall New College @ 40 Willcocks St, Toronto, ON M5S 1C6": {
         "T-Bucks": "Yes",
         "Rating": 4.0,
         "MapLocation": "https://goo.gl/maps/owBcVk1TKGJjxddU9",
         "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/010",
         "ResturauntCode": "NCD",
         "StoreImage": "https://lh5.googleusercontent.com/proxy/vhhtRgohFYbvI8Dbbx7LSGTYzgZgMWJBe5P3vWs5s8kJTfr00NRNFKDm59QTFq_Lh3tjctI8VKtl8N3gt2yfn0c_cXKmz0G4ngoPhW-ZPmT-p06zuh79IS1O1V1m2xdGkVLFg1P7rUsij7pyA3MoF91Tat2j-oc=w408-h274-k-no",
-        "Address": "40 Willcocks St, Toronto, ON M5S 1C6"
+        "Address": "40 Willcocks St, Toronto, ON M5S 1C6",
+        "Name": "Dining Hall New College"
     },
-    "Shawarma FoodTruck - 43.659658, -79.396741": {
+    "Shawarma FoodTruck @ 43.659658, -79.396741": {
         "T-Bucks": "No",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/hxL5t7ZojsxwoBBn6",
         "WebsiteLink": "https://alis-wraps.square.site/",
         "ResturauntCode": "FTS",
         "StoreImage": "https://torontofoodtrucks.ca/wp-content/uploads/2015/08/2015825-ali-baba-truck.jpg",
-        "Address": "43.659658, -79.396741"
+        "Address": "43.659658, -79.396741",
+        "Name": "Shawarma FoodTruck"
     },
-    "Second Cup - 55 St George St 2nd Floor, Toronto, ON M5S 0C9": {
+    "Second Cup @ 55 St George St 2nd Floor, Toronto, ON M5S 0C9": {
         "T-Bucks": "Yes",
         "Rating": 3.5,
         "MapLocation": "https://goo.gl/maps/zwrq3BMUjBLznUZZA",
         "WebsiteLink": "https://secondcup.com/en/menu/",
         "ResturauntCode": "SCP",
         "StoreImage": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=WDyeMQJcDA7k2EVGnB-rVA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=62.64958&pitch=0&thumbfov=100",
-        "Address": "55 St George St 2nd Floor, Toronto, ON M5S 0C9"
+        "Address": "55 St George St 2nd Floor, Toronto, ON M5S 0C9",
+        "Name": "Second Cup"
     },
-    "Second Cup - 179 College St, Toronto, ON M5T 1P7": {
+    "Second Cup @ 179 College St, Toronto, ON M5T 1P7": {
         "T-Bucks": "No",
         "Rating": 4.0,
         "MapLocation": "https://goo.gl/maps/5SizMdigN11uEs877",
         "WebsiteLink": "http://www.secondcup.com/menu",
         "ResturauntCode": "SCP",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPoHQeizBAVYk7HZXNuJuWN4RG-jk-NzQzhw76H=w408-h306-k-no",
-        "Address": "179 College St, Toronto, ON M5T 1P7"
+        "Address": "179 College St, Toronto, ON M5T 1P7",
+        "Name": "Second Cup"
     },
-    "Second Cup - 214 College St, Toronto, ON M5T 2Z9": {
+    "Second Cup @ 214 College St, Toronto, ON M5T 2Z9": {
         "T-Bucks": "Yes",
         "Rating": 3.3,
         "MapLocation": "https://goo.gl/maps/rHsjCBVaW5FucLYGA",
         "WebsiteLink": "https://secondcup.com/en/menu/",
         "ResturauntCode": "SCP",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipNIFNiFg0Ko9VON19wcnNtn7Tt2yuYbOy_yHDgG=w408-h544-k-no",
-        "Address": "214 College St, Toronto, ON M5T 2Z9"
+        "Address": "214 College St, Toronto, ON M5T 2Z9",
+        "Name": "Second Cup"
     },
-    "So Sushi - 130 St George St, Toronto, ON M5S 1A5": {
+    "So Sushi @ 130 St George St, Toronto, ON M5S 1A5": {
         "T-Bucks": "Yes",
         "Rating": 4.0,
         "MapLocation": "https://goo.gl/maps/aJJj124yWa2EiMPC7",
         "WebsiteLink": "http://foodservices.utoronto.ca/where-to-eat/",
         "ResturauntCode": "SSH",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipOJf7mQQ_7c_UTuO2eXsEWm3ZhzZIqEbMi-0rND=w408-h544-k-no",
-        "Address": "130 St George St, Toronto, ON M5S 1A5"
+        "Address": "130 St George St, Toronto, ON M5S 1A5",
+        "Name": "So Sushi"
     },
-    "Howard Ferguson Dining Hall - Main Floor, 75 St George St, Toronto, ON M5S 2E5": {
+    "Howard Ferguson Dining Hall @ Main Floor, 75 St George St, Toronto, ON M5S 2E5": {
         "T-Bucks": "Yes",
         "Rating": 2.4,
         "MapLocation": "https://goo.gl/maps/dEPgLVbyqCW2Qpss9",
         "WebsiteLink": "http://www.uc.utoronto.ca/howard-ferguson-dining-hall",
         "ResturauntCode": "HFD",
         "StoreImage": "https://www.uc.utoronto.ca/sites/default/files/styles/scale_width_320/public/assets/images/grill_0.jpg?h=b3322ac3&itok=vK04sWoc",
-        "Address": "Main Floor, 75 St George St, Toronto, ON M5S 2E5"
+        "Address": "Main Floor, 75 St George St, Toronto, ON M5S 2E5",
+        "Name": "Howard Ferguson Dining Hall"
     },
-    "Chesnut Dining Hall - 89 Chestnut St, Toronto, ON M5G 1R1": {
+    "Chesnut Dining Hall @ 89 Chestnut St, Toronto, ON M5G 1R1": {
         "T-Bucks": "Yes",
         "Rating": 3.0,
         "MapLocation": "https://goo.gl/maps/DQQvBbdRSnKUfY2D7",
         "WebsiteLink": "https://chestnut.utoronto.ca/about/dining-hall-meal-plans-food/",
         "ResturauntCode": "CHN",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPni0t1DYIRr2EZqiWFHNigtigD0pKqe1riBe8=w408-h272-k-no",
-        "Address": "89 Chestnut St, Toronto, ON M5G 1R1"
+        "Address": "89 Chestnut St, Toronto, ON M5G 1R1",
+        "Name": "Chesnut Dining Hall"
     },
-    "CampusOne Dining Halll - 253 College St, Toronto, ON M5T 1R5": {
+    "CampusOne Dining Halll @ 253 College St, Toronto, ON M5T 1R5": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/6aoRFneVGgExDQ6R6",
         "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/007",
         "ResturauntCode": "COD",
         "StoreImage": "https://www.k-cap.com/wp-content/uploads/2018/04/7920.jpg",
-        "Address": "253 College St, Toronto, ON M5T 1R5"
+        "Address": "253 College St, Toronto, ON M5T 1R5",
+        "Name": "CampusOne Dining Halll"
     },
-    "Ramen Ya - Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3": {
+    "Ramen Ya @ Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3": {
         "T-Bucks": "Yes",
         "Rating": 2.7,
         "MapLocation": "https://goo.gl/maps/TnGzuxaJy4Md6YPq7",
         "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/013",
         "ResturauntCode": "RMY",
         "StoreImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/54435413_10156426042877635_7686372128320389120_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_ohc=nbJVZCO8J-QAX8k8_li&_nc_ht=scontent-yyz1-1.xx&oh=00_AfCJH5NflOub2wg-Zbozjd-KgT9n7oqTldP3aCmH3-1aDQ&oe=638E422D",
-        "Address": "Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3"
+        "Address": "Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3",
+        "Name": "Ramen Ya"
     },
-    "Grill N Thrill Kabob - 80 St George St, Toronto, ON M5S 3H4": {
+    "Grill N Thrill Kabob @ 80 St George St, Toronto, ON M5S 3H4": {
         "T-Bucks": "No",
         "Rating": 4.0,
         "MapLocation": "https://goo.gl/maps/QB3xCVGquutGhVTp7",
         "WebsiteLink": "https://www.grillnthrillkabob.com/",
         "ResturauntCode": "GTK",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPEGwAig0zmUe_D5ewCZypZztM6GkiO-niBfkbu=w408-h272-k-no",
-        "Address": "80 St George St, Toronto, ON M5S 3H4"
+        "Address": "80 St George St, Toronto, ON M5S 3H4",
+        "Name": "Grill N Thrill Kabob"
     },
-    "Chatime - 199 College St, Toronto, ON M5T 1P9": {
+    "Chatime @ 199 College St, Toronto, ON M5T 1P9": {
         "T-Bucks": "No",
         "Rating": 4.1,
         "MapLocation": "https://goo.gl/maps/vRAxwgftfUz8nTB78",
         "WebsiteLink": "https://chatime.com/order/collegewest/?utm_source=google&utm_medium=gmb&utm_campaign=coo2&utm_term=menu",
         "ResturauntCode": "CHT",
         "StoreImage": "https://s3-media0.fl.yelpcdn.com/bphoto/hu8JeD_L7EiyGQJavEOAPw/o.jpg",
-        "Address": "199 College St, Toronto, ON M5T 1P9"
+        "Address": "199 College St, Toronto, ON M5T 1P9",
+        "Name": "Chatime"
     },
-    "Signatures Restaurant - 220 Bloor St W, Toronto, ON M5S 1T8": {
+    "Signatures Restaurant @ 220 Bloor St W, Toronto, ON M5S 1T8": {
         "T-Bucks": "No",
         "Rating": 4.2,
         "MapLocation": "https://goo.gl/maps/Ro9nqMtDouS8d26s5",
         "WebsiteLink": "https://www.opentable.ca/signatures-restaurant?corrid=2f6a1ee6-9bb8-4170-882f-7dff5edcafbd&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=2&sd=2022-09-03T19%3A00%3A00",
         "ResturauntCode": "SGN",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipP6LodRULeGXjdzdBg7G1CNFUAb2NgDDEvwrOJ1=w408-h306-k-no",
-        "Address": "220 Bloor St W, Toronto, ON M5S 1T8"
+        "Address": "220 Bloor St W, Toronto, ON M5S 1T8",
+        "Name": "Signatures Restaurant"
     },
-    "Kung Fu Tea - 287 College St, Toronto, ON M5T 1S2": {
+    "Kung Fu Tea @ 287 College St, Toronto, ON M5T 1S2": {
         "T-Bucks": "No",
         "Rating": 4.3,
         "MapLocation": "https://goo.gl/maps/MsezmyTdYTYkBomi9",
         "WebsiteLink": "https://www.kungfuteatoronto.com/",
         "ResturauntCode": "KFT",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipPhKKLJ-9rWmK4CPnVFqfC2oQOocSa-RCk38lzY=w408-h272-k-no",
-        "Address": "287 College St, Toronto, ON M5T 1S2"
+        "Address": "287 College St, Toronto, ON M5T 1S2",
+        "Name": "Kung Fu Tea"
     },
-    "Myungrang Hotdog - 199 College St, Toronto, ON M5T 1P9": {
+    "Myungrang Hotdog @ 199 College St, Toronto, ON M5T 1P9": {
         "T-Bucks": "No",
         "Rating": 4.4,
         "MapLocation": "https://goo.gl/maps/9LoWr2VgE3b3RZo27",
         "WebsiteLink": "http://www.myungranghotdog.ca/",
         "ResturauntCode": "KHD",
         "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipMbop1F3q7RLw_LY9g2i8L13vWmr_ybPu7RHQWl=w408-h305-k-no",
-        "Address": "199 College St, Toronto, ON M5T 1P9"
+        "Address": "199 College St, Toronto, ON M5T 1P9",
+        "Name": "Myungrang Hotdog"
     },
-    "Second Cup - 100 St George St, Toronto, ON M5S 2E8": {
+    "Second Cup @ 100 St George St, Toronto, ON M5S 2E8": {
         "T-Bucks": "Yes",
         "Rating": 2.4,
         "MapLocation": "https://goo.gl/maps/i1J1PaibAQBM26D18",
         "WebsiteLink": "https://secondcup.com/en/menu/",
         "ResturauntCode": "SCP",
         "StoreImage": "https://wdw.utoronto.ca/sites/default/files/styles/scale_width_811px_/public/assets/images/sidney%20smith%20hall%20cropped.jpg?itok=ViabXdoN",
-        "Address": "100 St George St, Toronto, ON M5S 2E8"
+        "Address": "100 St George St, Toronto, ON M5S 2E8",
+        "Name": "Second Cup"
     },
-    "Mike's Cafe - 81A St. Marys St, Brennan Hall, 1st floor Toronto": {
+    "Mike's Cafe @ 81A St. Marys St, Brennan Hall, 1st floor Toronto": {
         "T-Bucks": "Yes",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/3SvXoFca4L4vjBaU8",
         "WebsiteLink": "https://stmikes.utoronto.ca/news/brennan-hall-puts-community-at-the-heart-of-st-mikes",
         "ResturauntCode": "MCM",
         "StoreImage": "https://stmikes.utoronto.ca/wp-content/uploads/2020/12/Mikes-Cafe.jpg",
-        "Address": "81A St. Marys St, Brennan Hall, 1st floor Toronto"
+        "Address": "81A St. Marys St, Brennan Hall, 1st floor Toronto",
+        "Name": "Mike's Cafe"
     },
-    "Pink Food Truck - 130 St George Street, Toronto, ON M5S 1A5": {
+    "Pink Food Truck @ 130 St George Street, Toronto, ON M5S 1A5": {
         "T-Bucks": "No",
         "Rating": null,
         "MapLocation": "https://goo.gl/maps/zgB3LwaakucacaMn8",
         "WebsiteLink": "https://www.yelp.ca/biz/teappuccino-toronto",
         "ResturauntCode": "FTP",
         "StoreImage": "http://blogs.studentlife.utoronto.ca/lifeatuoft/files/2016/02/2015-07-06-03.50.12-1.jpg",
-        "Address": "130 St George Street, Toronto, ON M5S 1A5"
+        "Address": "130 St George Street, Toronto, ON M5S 1A5",
+        "Name": "Pink Food Truck"
     },
-    "Tortillas - 100 St George St, Toronto, ON M5S 3G3": {
+    "Tortillas @ 100 St George St, Toronto, ON M5S 3G3": {
         "T-Bucks": "Yes",
         "Rating": 4.2,
         "MapLocation": "https://goo.gl/maps/XyCNtr2fQaVUF3w58",
         "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/008",
         "ResturauntCode": "TOT",
         "StoreImage": "https://assets.bonappetit.com/photos/592f0472f54fde6de91b1d3c/1:1/w_3322,h_3322,c_limit/0617-lau-judy-fish-tacos-al-pastor.jpg",
-        "Address": "100 St George St, Toronto, ON M5S 3G3"
+        "Address": "100 St George St, Toronto, ON M5S 3G3",
+        "Name": "Tortillas"
     },
-    "The Buttery - 15 Devonshire Pl, Toronto, ON M5S 2C8": {
+    "The Buttery @ 15 Devonshire Pl, Toronto, ON M5S 2C8": {
         "T-Bucks": "Yes",
         "Rating": 4.0,
         "MapLocation": "https://goo.gl/maps/Aaw3PViobbAWfZuaA",
         "WebsiteLink": "http://www.trinity.utoronto.ca/visit/food-services/buttery.html#main-content",
         "ResturauntCode": "TPT",
         "StoreImage": "https://pbs.twimg.com/media/DJcWJEaXUAA-mVv.jpg:large",
-        "Address": "15 Devonshire Pl, Toronto, ON M5S 2C8"
+        "Address": "15 Devonshire Pl, Toronto, ON M5S 2C8",
+        "Name": "The Buttery"
     }
 }

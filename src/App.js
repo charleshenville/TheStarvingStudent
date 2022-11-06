@@ -97,16 +97,19 @@ function App() {
     <ChakraProvider>
         <Container maxW="80rem" centerContent>
           <SimpleGrid columns={[1, 2, 1, 2]}>
+            
           {Object.entries(UIRetreivable).map((e) => {
+          
          // props object
   
          const props = {
+           Address: e[1].Address,
+           Name: e[1].Name,
            StoreImage: e[1].StoreImage,
            RestaurantName: e[0],
            WebsiteLink: e[1].WebsiteLink,
            Rating: e[1].Rating
           }
-        console.log(props);
       return(
       <RestaurantCards props={props} />);
       })};

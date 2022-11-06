@@ -17,21 +17,20 @@ def createItemTypes():
     
 def createUIretreivables():
 
-    uiretr = pd.read_excel(modelpath,index_col='RestaurantName', sheet_name = 'Main')
+    uiretr = pd.read_excel(modelpath, index_col='RestaurantName', sheet_name = 'Main')
     
     uiretr.reset_index(inplace = True)
 
     for i in uiretr.index:
         uiretrsplit = uiretr.loc[i, 'RestaurantName']
         uiretrsplititerated = uiretrsplit.split(' @ ')
-        uiretrwithdash = uiretrsplit.replace('@','-')
-        # print(uiretrsplititerated)
         
-        uiretr['RestaurantName'][i] = uiretrwithdash
+        uiretr['Name'][i] = uiretrsplititerated[0]
         #print(uiretrsplititerated)
         uiretr['Address'][i] = uiretrsplititerated[1]
 
     uiretr.set_index('RestaurantName', inplace = True)
+
     jsonstring = uiretr.to_json(orient = 'index')
     variableparse = j.loads(jsonstring)
     finalstring = j.dumps(variableparse, indent = 4)
