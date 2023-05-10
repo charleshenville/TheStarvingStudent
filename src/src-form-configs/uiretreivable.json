@@ -5,7 +5,7 @@
         "MapLocation": "https://goo.gl/maps/9vAtozwTJ9drYhUeA",
         "WebsiteLink": "https://locations.timhortons.ca/on/toronto/1-kings-college-circle",
         "ResturauntCode": "TIM",
-        "StoreImage": "https://lh5.googleusercontent.com/p/AF1QipN57DDqBwbvpmO3xHbXGo_fZ0-et26nx_e3HysV=w432-h240-k-no",
+        "StoreImage": "http://dev.ueat.utoronto.ca/wp-content/uploads/2015/06/Tim-hortons_MSB.jpg",
         "Address": "1 King's College Cir, Toronto, ON M5S 1A8"
     },
     "Tim Hortons - 610 University Ave, Toronto, ON M5J 1A7": {
@@ -160,15 +160,6 @@
         "ResturauntCode": "COD",
         "StoreImage": "https://www.k-cap.com/wp-content/uploads/2018/04/7920.jpg",
         "Address": "253 College St, Toronto, ON M5T 1R5"
-    },
-    "Ramen Ya - Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3": {
-        "T-Bucks": "Yes",
-        "Rating": 2.7,
-        "MapLocation": "https://goo.gl/maps/TnGzuxaJy4Md6YPq7",
-        "WebsiteLink": "https://fso.ueat.utoronto.ca/FSO/ServiceMenuReport/ShowReport/013",
-        "ResturauntCode": "RMY",
-        "StoreImage": "https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/54435413_10156426042877635_7686372128320389120_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_ohc=nbJVZCO8J-QAX8k8_li&_nc_ht=scontent-yyz1-1.xx&oh=00_AfCJH5NflOub2wg-Zbozjd-KgT9n7oqTldP3aCmH3-1aDQ&oe=638E422D",
-        "Address": "Sidney Smith Hall 100 St, George St lower level, Toronto, ON M5S 3G3"
     },
     "Grill N Thrill Kabob - 80 St George St, Toronto, ON M5S 3H4": {
         "T-Bucks": "No",

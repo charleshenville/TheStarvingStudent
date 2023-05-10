@@ -1,15 +1,15 @@
-import numpy as np
-import openpyxl as op
+# import numpy as np
+# import openpyxl as op
 import pandas as pd
-import json as j
+import json
 
 def createItemTypes():
 
     itemtypecd = pd.read_excel(modelpath,index_col='Item Type', sheet_name = 'ItemCode List')
     
     jsonstring = itemtypecd.to_json(orient = 'index')
-    variableparse = j.loads(jsonstring)
-    finalstring = j.dumps(variableparse, indent = 4)
+    variableparse = json.loads(jsonstring)
+    finalstring = json.dumps(variableparse, indent = 4)
 
     itemtypecdjson = open(jsonpath+'itemtypecodes.json', 'w')
     itemtypecdjson.write(finalstring)
@@ -32,8 +32,8 @@ def createUIretreivables():
     uiretr.set_index('RestaurantName', inplace = True)
 
     jsonstring = uiretr.to_json(orient = 'index')
-    variableparse = j.loads(jsonstring)
-    finalstring = j.dumps(variableparse, indent = 4)
+    variableparse = json.loads(jsonstring)
+    finalstring = json.dumps(variableparse, indent = 4)
 
     itemtypecdjson = open(jsonpath+'uiretreivable.json', 'w')
     itemtypecdjson.write(finalstring)
@@ -65,12 +65,10 @@ def createRestautantTypes():
         restautanttypecd['ItemTypeCode'][i] = uiretrsplititerated
         restautanttypecd['Dietary Restriction/Accomodation'][i] = dietrestrsplititerated
 
-    
-
     restautanttypecd.set_index('Restaurant Name', inplace = True)
     jsonstring = restautanttypecd.to_json(orient = 'index')
-    variableparse = j.loads(jsonstring)
-    finalstring = j.dumps(variableparse, indent = 4)
+    variableparse = json.loads(jsonstring)
+    finalstring = json.dumps(variableparse, indent = 4)
 
     itemtypecdjson = open(jsonpath+'restauranttypecodes.json', 'w')
     itemtypecdjson.write(finalstring)
