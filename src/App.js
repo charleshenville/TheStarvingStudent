@@ -1,8 +1,8 @@
 import RestaurantCards from "./components/card";
 
-import  ItemTypeCodes  from './src-form-configs/itemtypecodes.json';
-import  RestaurantTypeCodes from './src-form-configs/restauranttypecodes';
-import  UIRetreivable  from './src-form-configs/uiretreivable.json';
+import ItemTypeCodes from './src-form-configs/itemtypecodes.json';
+import RestaurantTypeCodes from './src-form-configs/restauranttypecodes';
+import UIRetreivable from './src-form-configs/uiretreivable.json';
 
 import {
   chakra,
@@ -21,11 +21,13 @@ import {
   SkeletonText,
   Text,
   createMultiStyleConfigHelpers,
-  ChakraProvider, 
-  SimpleGrid, 
-  Container
-
+  ChakraProvider,
+  SimpleGrid,
+  Container,
+  color,
+  background
 } from '@chakra-ui/react'
+
 import { FaLocationArrow, FaTimes } from 'react-icons/fa'
 
 import {
@@ -42,13 +44,13 @@ const center = { lat: 43.659632, lng: -79.396747 }
 
 
 function App() {
-  
+
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: "AIzaSyACTEWEy471HWELK-uowv-kirwsuDU_KiE",
     libraries: ['places'],
   })
 
-  const [map, setMap] = useState(/** @type google.maps.Map */ (null))
+  const [map, setMap] = useState(/** @type google.maps.Map */(null))
   const [directionsResponse, setDirectionsResponse] = useState(null)
   const [distance, setDistance] = useState('')
   const [duration, setDuration] = useState('')
@@ -66,7 +68,7 @@ function App() {
 
 
   async function calculateRoute() {
-    
+
     //setRestaurants(fakeResturants)
     if (originRef.current.value === '' || destiantionRef.current.value === '') {
       return
@@ -94,104 +96,122 @@ function App() {
 
   return (
 
-    <ChakraProvider>
+    <div style={{fontFamily: 'Helvetica', backgroundColor:"#DDDDDD"}}>
+      <ChakraProvider>
+
+        <div style={{
+          width: '100%',
+          display: 'flex',
+          position: 'relative',
+          justifyContent: 'center',
+          color: '#000000',
+          fontWeight: 'bold',
+          fontSize: '100px',
+          padding: '5vh'
+        }}>
+          <h1>The Starving Student.</h1>
+        </div>
+
         <Container maxW="80rem" centerContent>
           <SimpleGrid columns={[1, 2, 1, 2]}>
-            
-          {Object.entries(UIRetreivable).map((e) => {
-          
-         // props object
-  
-         const props = {
-           Address: e[1].Address,
-           Name: e[1].Name,
-           StoreImage: e[1].StoreImage,
-           RestaurantName: e[0],
-           WebsiteLink: e[1].WebsiteLink,
-           Rating: e[1].Rating
-          }
-      return(
-      <RestaurantCards props={props} />);
-      })};
+
+            {Object.entries(UIRetreivable).map((e) => {
+
+              // props object
+
+              const props = {
+                Address: e[1].Address,
+                Name: e[1].Name,
+                StoreImage: e[1].StoreImage,
+                RestaurantName: e[0],
+                WebsiteLink: e[1].WebsiteLink,
+                Rating: e[1].Rating
+              }
+              return (
+                <RestaurantCards props={props} />);
+            })}
           </SimpleGrid>
         </Container>
-      
 
-    <Flex
-      position='relative'
-      flexDirection='column'
-      alignItems='center'
-      h='100vh'
-      w='100vw'
-    >
-      <Box position='absolute' left={0} top={200}h='100%' w='100%'>
-        {/* Google Map Box */}
-        <GoogleMap
-          center={center}
-          zoom={15}
-          mapContainerStyle={{ width: '100%',height: '100%' }}
-          options={{
-            zoomControl: false,
-            streetViewControl: false,
-            mapTypeControl: false,
-            fullscreenControl: false,
-          }}
-          onLoad={map => setMap(map)}
+
+        <Flex
+          position='relative'
+          flexDirection='column'
+          alignItems='center'
+          h='100vh'
+          w='100vw'
         >
-        {locationCoords.map((location_c) => {
-        return <Marker position={location_c} />})}
-          {directionsResponse && (
-            <DirectionsRenderer directions={directionsResponse} />
-          )}
-        </GoogleMap>
-      </Box>
-      <Box
-        p={6}
-        borderRadius='lg'
-        m={5}
-        bgColor='white'
-        shadow='base'
-        minW='container.md'
-        zIndex='1'
-      >
-        <h4>
-          The Starving Student
-        </h4>
-        <HStack spacing={4} justifyContent='space-between'>
-          <Box flexGrow={2}>
-            <Autocomplete>
-              <Input type='text' placeholder='Enter Desired Address' ref={originRef} />
-            </Autocomplete>
+          <Box position='absolute' left={0} top={200} h='100%' w='100%'>
+            {/* Google Map Box */}
+            <GoogleMap
+              center={center}
+              zoom={15}
+              mapContainerStyle={{ width: '100%', height: '100%' }}
+              options={{
+                zoomControl: false,
+                streetViewControl: false,
+                mapTypeControl: false,
+                fullscreenControl: false,
+              }}
+              onLoad={map => setMap(map)}
+            >
+              {locationCoords.map((location_c) => {
+                return <Marker position={location_c} />
+              })}
+              {directionsResponse && (
+                <DirectionsRenderer directions={directionsResponse} />
+              )}
+            </GoogleMap>
           </Box>
+          {/* <Box
+            p={6}
+            borderRadius='lg'
+            m={5}
+            bgColor='white'
+            shadow='base'
+            minW='container.md'
+            zIndex='1'
+          >
+            <h4>
+              The Starving Student
+            </h4>
+            <HStack spacing={4} justifyContent='space-between'>
+              <Box flexGrow={2}>
+                <Autocomplete>
+                  <Input type='text' placeholder='Enter Desired Address' ref={originRef} />
+                </Autocomplete>
+              </Box>
 
-          <ButtonGroup>
-            <Button colorScheme='pink' type='submit' onClick={calculateRoute}>
-              Search
-            </Button>
-            <IconButton
-              aria-label='center back'
-              icon={<FaTimes />}
-              onClick={clearRoute}
-            />
-          </ButtonGroup>
-        </HStack>
-        <HStack spacing={4} mt={4} justifyContent='space-between'>
-          <IconButton
-            aria-label='center back'
-            icon={<FaLocationArrow />}
-            isRound
-            onClick={() => {
-              map.panTo(center)
-              map.setZoom(15)
-            }}
-          />
-        </HStack>
-      </Box>
-      <div>
-        {/* {restaurants && restaurants.map(({name},i)=>(<Card name={name} key={i}/>))} */}
-      </div>
-    </Flex>
-    </ChakraProvider>
+              <ButtonGroup>
+                <Button colorScheme='pink' type='submit' onClick={calculateRoute}>
+                  Search
+                </Button>
+                <IconButton
+                  aria-label='center back'
+                  icon={<FaTimes />}
+                  onClick={clearRoute}
+                />
+              </ButtonGroup>
+            </HStack>
+            <HStack spacing={4} mt={4} justifyContent='space-between'>
+              <IconButton
+                aria-label='center back'
+                icon={<FaLocationArrow />}
+                isRound
+                onClick={() => {
+                  map.panTo(center)
+                  map.setZoom(15)
+                }}
+              />
+            </HStack>
+          </Box> */}
+          <div>
+            {/* {restaurants && restaurants.map(({name},i)=>(<Card name={name} key={i}/>))} */}
+          </div>
+        </Flex>
+      </ChakraProvider>
+    </div>
+
   )
 }
 
